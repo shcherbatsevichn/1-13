@@ -5,8 +5,6 @@ error_reporting(-1);
 $n = 16;
 $m = 18;
 $number = 2* $n * $m;
-echo($number."<br>");
-echo(intlong($number)."<br>");
 if(intlong($number) % 2 == 0){
     if(is_palindrom($number)){
         echo ("{$number} симметричное число типа 2 {$n}(n) {$m}(m)");
